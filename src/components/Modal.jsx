@@ -27,7 +27,6 @@ const Modal = ({ closeModal, id }) => {
       <div className='modal'>
         <div className='modal-info'>
           <h3>{title}</h3>
-          <p className='desc'>{desc}</p>
           <div>{country}</div>
           <div>${price}</div>
           <h3>{date}</h3>
