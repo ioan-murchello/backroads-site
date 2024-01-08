@@ -113,8 +113,8 @@ p {
     font-size: 1rem;
   }
   body::-webkit-scrollbar {
-  display: none;
-}
+    display: none;
+  }
   h1,
   h2,
   h3,
@@ -397,6 +397,12 @@ Featured Tours
   flex-wrap: wrap;
   align-items: center;
 }
+@media screen and (max-width: 300px) {
+  .tour-footer {
+    flex-direction: column;
+    row-gap: 16px;
+  } 
+}
 .tour-footer p {
   line-height: 0;
   margin-bottom: 0;
@@ -512,7 +518,7 @@ Navbar
   transition: var(--transition);
   z-index: 100;
 }
- 
+
 .nav-link {
   display: block;
   padding: 1rem 2rem;
@@ -629,7 +635,7 @@ Modal
   position: relative;
   width: 600px;
   margin: 0 auto;
-  top: 100px; 
+  top: 100px;
 
   /* transform: translate(-50%, -50%); */
   background-color: white;
@@ -659,9 +665,9 @@ Modal
   .modal {
     width: 80%;
     padding: 30px 10px 10px 10px;
-    top: 48%;
+    top: 50px;
   }
-  .modal-info{
+  .modal-info {
     text-align: left;
   }
 }
@@ -709,25 +715,25 @@ Modal
   h3 {
     font-size: 1rem;
   }
-  div{
+  div {
     font-size: 18px;
     text-transform: uppercase;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .modal-info .desc{
+  .modal-info .desc {
     display: none;
     font-size: 0 !important;
   }
-  .modal button{
+  .modal button {
     font-size: 16px;
     padding: 10px;
   }
 }
 
-@media (max-height: 600px){
-  .modalLayout{
+@media (max-height: 600px) {
+  .modalLayout {
     overflow: scroll;
   }
   .modal {

@@ -67,7 +67,7 @@ const Modal = ({ closeModal, id }) => {
           </div>
         </div>
 
-        <button onClick={handleCloseModal}>Close Modal</button>
+        <button onClick={handleCloseModal}>Close</button>
       </div>
     </div>
   );
