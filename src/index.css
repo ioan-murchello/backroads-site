@@ -653,7 +653,7 @@ Modal
   }
 
 @media screen and (max-width: 600px) {
-  img {
+  .modal-images__wrapper img {
     height: 230px;
   }
 }
@@ -725,8 +725,8 @@ Modal
 
 @media screen and (max-width: 600px) {
   .modal button {
-    font-size: 16px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 6px;
   }
 }
 
